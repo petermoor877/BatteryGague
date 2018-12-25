@@ -16,3 +16,8 @@ It is a battery gague integrated charging function for 18650 and other 3.7V Li-b
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest1.jpg)
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest2.jpg)
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest3.jpg)
+#How to use with Raspberry Pi, NodeMCU, Arduino.
+Please have a look here：
+https://github.com/lspoplove/PiBatteryGague
+
+Battery gague and PiBatteryGague have the same pin map
