@@ -7,3 +7,11 @@ It is a battery gague integrated charging function for 18650 and other 3.7V Li-b
 3. Install Max17043 library for arduino: http://playground.arduino.cc/Main/MAX17043
 4. Select board DSTIKE by Travis Lin.
 5. Connect your board, select the correct COM port and click upload "batterygague.ino" of this page.
+## Web Server Test
+1.Dowload "webservertest.ino" of this page.
+2.Update "SSID" and "Password". 
+3.Upload code to the board.
+### Result
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest1.jpg)
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest2.jpg)
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest3.jpg)
