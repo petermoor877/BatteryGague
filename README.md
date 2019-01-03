@@ -1,4 +1,4 @@
-# BatteryGague
+# BatteryGauge
 It is a battery gague integrated charging function for 18650 and other 3.7V Li-battery.
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/batterygague.jpg)
 ## Default Software Installation
