@@ -1,3 +1,4 @@
+
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
@@ -51,8 +52,8 @@ bool readbattery = false;
 
 
 
-const char* ssid = "xxxxx";
-const char* password = "xxxxxxxx";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxxx";
 
 
 
@@ -67,13 +68,22 @@ void handleRoot() {
 
 void handleSwitch() {
 
+  //dtostrf(stateOfCharge,4,1,tmp), dtostrf(cellVoltage,5,2,tmp)
+  
+dtostrf(stateOfCharge,4,1,tmp);
+String batteryone= tmp;
+dtostrf(cellVoltage,5,2,tmp);
+String batterytwo = tmp;
+String batterylife=batteryone+"%"+batterytwo+"V";
+
+
   if (readbattery == false) {
-    server.send(200, "text/plain", dtostrf(stateOfCharge,4,1,tmp));
+    server.send(200, "text/plain", batterylife );
     Serial.println("User read requested");
     readbattery = true;
   }
   else {
-    server.send(200, "text/plain", dtostrf(cellVoltage,5,2,tmp));
+    server.send(200, "text/plain", batterylife);
     Serial.println("User read requested");
     readbattery = false;
   }                      
