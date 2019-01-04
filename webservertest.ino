@@ -41,7 +41,7 @@ String myhtmlPage =
     "</head>" +
     "<body>" +
     "<center>"+
-    "<h1>DSTIKE Battery Gague</h1>"
+    "<h1>DSTIKE Battery Gauge</h1>"
     "<h2>www.dstike.com</h2>"
     "    <div id=\"txtState\">Read Battery</div>" +
     "    <input type=\"button\" value=\"Read\" onclick=\"ReadSwitch()\">" +
