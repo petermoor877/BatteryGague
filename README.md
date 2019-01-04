@@ -13,8 +13,7 @@ It is a battery gague integrated charging function for 18650 and other 3.7V Li-b
 3.Upload code to the board.  
 4.Open the IP on the screen.  
 ### Result
-![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest1.jpg)
-![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest2.jpg)
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/batterygauge.png)
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/webtest3.jpg)
 # How to use with Raspberry Pi, NodeMCU, Arduino.
 
